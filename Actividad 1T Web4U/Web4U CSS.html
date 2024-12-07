@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>CSS - Web4U</title>
+    <link rel="icon" href="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Imagen\Logo.png" type="image\png">
+
+    <style>
+        body {
+            line-height: 1.5;
+        }
+
+        header nav {
+            text-align: left;
+            display: flex;
+            align-items: center;
+        }
+
+        header nav a {
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .logo-img {
+            width: 150px;
+            margin-right: 25px;
+        }
+
+        .language-switch {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .language-switch img {
+            width: 30px;
+            margin-left: 10px;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 15px;
+        }
+
+        code {
+            font-family: Consolas, monospace;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        footer a {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Imagen\LogoLetras.png" alt="Logo Web4U" class="logo-img">
+            <a href="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\index.html">Inicio</a>
+            <a href="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Web4U HTML.html">HTML</a>
+            <a href="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Web4U SVG.html">SVG</a>
+            <a href="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Web4U CSS.html">CSS</a>
+        </nav>
+        <div class="language-switch">
+            <a href="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Web4U CSS.html">
+                <img src="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Imagen\ES.png" alt="Español">
+            </a>
+            <a href="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Web4U CSS Ingles.html">
+                <img src="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Imagen\IN.png" alt="English">
+            </a>
+        </div>
+    </header>
+    
+    <main>
+        <section>
+            <h1>Introducción a CSS</h1>
+            <p>CSS (Cascading Style Sheets) es un lenguaje utilizado para definir la apariencia de los documentos HTML. Permite separar la estructura del contenido de su presentación, como colores, fuentes, márgenes y mucho más.</p>
+
+            <h2>Ejemplo básico de CSS</h2>
+            <p>A continuación, te mostramos un ejemplo de código CSS básico:</p>
+
+            <pre>
+<code>
+&lt;style&gt;
+    body {
+        background-color: #f0f0f0;
+        color: #333;
+    }
+    h1 {
+        color: #d6336c;
+    }
+    p {
+        font-size: 1.2em;
+        line-height: 1.6;
+    }
+&lt;/style&gt;
+</code>
+            </pre>
+
+            <h2>Explicación del código:</h2>
+            <p>Este código CSS modifica el estilo del documento HTML:</p>
+            <ul>
+                <li><strong>&lt;style&gt;</strong>: Etiqueta donde se define el CSS dentro del documento HTML.</li>
+                <li><strong>body</strong>: Aplica los estilos al cuerpo de la página, como el color de fondo y el color del texto.</li>
+                <li><strong>h1</strong>: Cambia el color del encabezado principal (h1).</li>
+                <li><strong>p</strong>: Modifica el tamaño de la fuente y el interlineado de los párrafos.</li>
+            </ul>
+
+            <h2>Resultado en el navegador</h2>
+            <p>Cuando se visualiza este código en un navegador, el resultado será:</p>
+            <img src="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Imagen\Imagen CSS.png" alt="Ejemplo HTML">
+
+            <h2>Enlaces de interés</h2>
+            <p>Para más detalles sobre las características de CSS, puedes consultar la <a href="https://www.w3.org/TR/css/">Web de W3C</a>.</p>
+            <p>También te puede interesar el <a href="https://www.w3schools.com/css/">Tutorial de CSS en W3Schools</a>.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2024 Web4U | Diseñado para IES La Marisma</p>
+        <a href="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\PDF\CSS.pdf" download>Descargar contenido en PDF</a>
+    </footer>
+</body>
+</html>
