@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SVG - Web4U</title>
+    <link rel="icon" href="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Imagen\Logo.png" type="image\png">
+
+    <style>
+        body {
+            line-height: 1.5;
+        }
+
+        header nav {
+            text-align: left;
+            display: flex;
+            align-items: center;
+        }
+
+        header nav a {
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        .logo-img {
+            width: 150px;
+            margin-right: 25px;
+        }
+
+        .language-switch {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .language-switch img {
+            width: 30px;
+            margin-left: 10px;
+        }
+
+        pre {
+            background-color: #f4f4f4;
+            padding: 15px;
+        }
+
+        code {
+            font-family: Consolas, monospace;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        footer a {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Imagen\LogoLetras.png" alt="Logo Web4U" class="logo-img">
+            <a href="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Web4U Inicio Ingles.html">Home</a>
+            <a href="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Web4U HTML Ingles.html">HTML</a>
+            <a href="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Web4U SVG Ingles.html">SVG</a>
+            <a href="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Web4U CSS Ingles.html">CSS</a>
+        </nav>
+        <div class="language-switch">
+            <a href="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Web4U SVG.html">
+                <img src="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Imagen\ES.png" alt="Español">
+            </a>
+            <a href="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Web4U SVG Ingles.html">
+                <img src="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Imagen\IN.png" alt="English">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h1>Introduction to SVG</h1>
+            <p>SVG (Scalable Vector Graphics) is an XML-based image format for describing vector graphics for the web. Unlike raster images (such as PNG or JPEG), SVG graphics are scalable, meaning they can be resized without losing quality.</p>
+
+            <h2>Basic SVG Example</h2>
+            <p>Here is a basic SVG code example:</p>
+
+            <pre>
+<code>
+&lt;svg width="500" height="300"&gt;
+    &lt;rect x="10" y="10" width="150" height="100" style="fill:rgb(0,0,255);stroke-width:2;stroke:rgb(0,0,0)" /&gt;
+    &lt;circle cx="300" cy="150" r="50" stroke="black" stroke-width="3" fill="red" /&gt;
+    &lt;line x1="250" y1="70" x2="400" y2="70" style="stroke:rgb(233,115,4);stroke-width:2" /&gt;
+    &lt;text x="250" y="50" font-family="Verdana" font-size="35" fill="blue"&gt;Hello Web4U&lt;/text&gt;
+    &lt;path d="M150 150 L75 250 L225 250 Z" stroke="green" stroke-width="3" fill="yellow" /&gt;
+&lt;/svg&gt;
+</code>
+            </pre>
+
+            <h2>Code Explanation:</h2>
+            <p>This is a basic SVG code with various tags to draw geometric shapes and text:</p>
+            <ul>
+                <li><strong>&lt;svg&gt;</strong>: Defines the SVG graphic area. Attributes like <em>width</em> and <em>height</em> set the size of the canvas area.</li>
+                <li><strong>&lt;rect&gt;</strong>: Draws a rectangle. The <em>width</em> and <em>height</em> attributes define the size, and the <em>style</em> attribute is used for colors and borders.</li>
+                <li><strong>&lt;circle&gt;</strong>: Draws a circle. The <em>cx</em> and <em>cy</em> attributes set the center position, <em>r</em> sets the radius, <em>stroke</em> sets the border color, <em>stroke-width</em> sets the border thickness, and <em>fill</em> sets the fill color.</li>
+                <li><strong>&lt;line&gt;</strong>: Draws a straight line between two points defined by <em>x1, y1</em> and <em>x2, y2</em> attributes.</li>
+                <li><strong>&lt;text&gt;</strong>: Draws text in the SVG area. The <em>x</em> and <em>y</em> attributes set the position of the text, and the <em>font-family, font-size, fill</em> attributes define the style of the text.</li>
+                <li><strong>&lt;path&gt;</strong>: Draws a custom shape using the <em>d</em> attribute, which contains a sequence of commands to draw lines and curves.</li>
+            </ul>
+
+            <h2>Result in Browser</h2>
+            <p>When this code is displayed in a browser, the result will look like this:</p>
+            <img src="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\Imagen\Imagen SVG.png" alt="SVG Example">
+
+            <h2>Useful Links</h2>
+            <p>For more details about SVG features, visit the <a href="https://www.w3.org/TR/SVG/">W3C Official Page</a>.</p>
+            <p>You may also find the <a href="https://www.w3schools.com/graphics/svg_intro.asp">W3Schools SVG Tutorial</a> helpful.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Web4U | Designed for IES La Marisma</p>
+        <a href="G:\Mi unidad\Lenguaje de Marcas\Actividad 1T Web4U\PDF\SVG Ingles.pdf" download>Download PDF Content</a>
+    </footer>
+</body>
+</html>
